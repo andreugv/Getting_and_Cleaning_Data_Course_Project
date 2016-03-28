@@ -17,20 +17,20 @@ The project contains one script "run_analysis.R", a codebook "CodeBook.md" conta
 
 The script "run_analysis.R" executes the following functions:
 
-1- Checks for the required packages, and installs missing packages.
-2- Sources the required libraries.
-3- Sets working directory to UCIHARpath specified.
-4- Reads the features table and gets the original ColNames (variable names).
-5- Reads the Activity and Subject tables.
-6- Reads both data tables (Train and test), and applies the correct variable names.
-7- Adds the Subject and Activity columns to the first columns of each, Train and Test tables.
-8- Merges both tables using <merge(..., all = T, sort = F)>
-9- Makes use of <grep()> to create a new table that only includes the variables with "mean" or "std" on it's ColName. Does not extract the columns with "Mean" and "Std" (note capital letters), because this are used for the angles between vectors, which are not part of th data requested for the project.
-10- Unlists "Activity" column to make it suitable for the next steps.
-11- Groups the table by Subject and Activity using <group_by() {dplyr}>.
-12- Calculates the mean for each group and variable with <summarise_each() {dplyr}>
-13- Renames the Variables to note the transformation underwent for the data.
-14- Writes a table with the final, tidy data into the same working directory specified.
+1- Checks for the required packages, and installs missing packages.  
+2- Sources the required libraries.  
+3- Sets working directory to UCIHARpath specified.  
+4- Reads the features table and gets the original ColNames (variable names).  
+5- Reads the Activity and Subject tables.  
+6- Reads both data tables (Train and test), and applies the correct variable names.  
+7- Adds the Subject and Activity columns to the first columns of each, Train and Test tables.  
+8- Merges both tables using <merge(..., all = T, sort = F)>  
+9- Makes use of <grep()> to create a new table that only includes the variables with "mean" or "std" on it's ColName. Does not extract the columns with "Mean" and "Std" (note capital letters), because this are used for the angles between vectors, which are not part of th data requested for the project.  
+10- Unlists "Activity" column to make it suitable for the next steps.  
+11- Groups the table by Subject and Activity using <group_by() {dplyr}>.  
+12- Calculates the mean for each group and variable with <summarise_each() {dplyr}>  
+13- Renames the Variables to note the transformation underwent for the data.  
+14- Writes a table with the final, tidy data into the same working directory specified.  
 
 ###Notes
 
