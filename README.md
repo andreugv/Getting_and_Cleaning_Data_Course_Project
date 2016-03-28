@@ -34,9 +34,10 @@ The script "run_analysis.R" executes the following functions:
 
 ###Notes
 
-Resulting table can be read with <read.table(tbl, headers = True)>, where tbl is the path to the table or table name if path is same as WD.
-Data was grouped by Subject and then activity, which, to my understanding, produces the clearer way to manage this data set.
-This script was written to be used with a particular directory structure based on the original data provided, and won't work of the files and directories structure has been changed. Follow the instruction in the CodeBook.md in order to set the working directory properly.
+Resulting table can be read with <read.table(tbl, headers = True)>, where tbl is the path to the table or table name if path is same as WD.  
+Data was grouped by Subject and then activity, which, to my understanding, produces the clearer way to manage this data set.  
+This script was written to be used with a particular directory structure based on the original data provided, and won't work of the files and directories structure has been changed. Follow the instruction in the CodeBook.md in order to set the working directory properly.  
+This script have been tested on Windows 10, using R version 3.2.3 and RStudio, it uses package {dplyr} version 0.4.3.
 
 ###Author information
 
