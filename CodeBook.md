@@ -69,30 +69,55 @@ https://github.com/andreugv/Getting_and_Cleaning_Data_Course_Project/blob/master
  - Variables included:
 
 1- subject
-2- activity                             
+
+2- activity  
+
 3- Mean_tBodyAcc-XYZ
+
 4- Mean_tGravityAcc-XYZ
+
 5- Mean_tBodyAccJerk-XYZ
+
 6- Mean_tBodyGyro-XYZ
+
 7- Mean_tBodyGyroJerk-XYZ
+
 8- Mean_tBodyAccMag
+
 9- Mean_tGravityAccMag
+
 10- Mean_tBodyAccJerkMag
+
 11- Mean_tBodyGyroMag
+
 12- Mean_tBodyGyroJerkMag
+
 13- Mean_fBodyAcc-XYZ
+
 14- Mean_fBodyAcc.meanFreq-XYZ
+
 15- Mean_fBodyAccJerk-XYZ
+
 16- Mean_fBodyAccJerk.meanFreq-XYZ
+
 17- Mean_fBodyGyro-XYZ
+
 18- Mean_fBodyGyro.meanFreq-XYZ
+
 19- Mean_fBodyAccMag
+
 20- Mean_fBodyAccMag.meanFreq
+
 21- Mean_fBodyAccJerkMag
+
 22- Mean_fBodyAccJerkMag.meanFreq
+
 23- Mean_fBodyGyroMag
+
 24- Mean_fBodyBodyGyroMag.meanFreq
+
 25- Mean_fBodyGyroJerkMag
+
 26- Mean_fBodyBodyGyroJerkMag.meanFreq
 
 ###Variable "subject"
